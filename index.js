@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 const { TextEncoder, TextDecoder } = require('util');                  
 
 let cliArgs = process.argv.slice(2);
-console.log('myArgs: ', cliArgs[0]);
+
 
 argsJson = JSON.parse(cliArgs[0])
 
