@@ -1,0 +1,22 @@
+{
+  "name": "eossigner",
+  "version": "1.0.0",
+  "description": "Command line EOS transaction signer. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eos",
+    "sign",
+    "raw",
+    "transaction"
+  ],
+  "author": "Tracey Boydston",
+  "license": "ISC",
+  "dependencies": {
+    "eosjs": "^20.0.0",
+    "node-fetch": "^2.6.0",
+    "util": "^0.12.1"
+  }
+}
