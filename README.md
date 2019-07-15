@@ -1,4 +1,4 @@
-A simple EOS send SLI. 
+A simple EOS send CLI. 
 
 # Example Usage
 
