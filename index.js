@@ -71,9 +71,10 @@ const api = new Api({ rpc, signatureProvider, textDecoder: new TextDecoder(), te
 
 	  if (e instanceof RpcError)
 	  	console.log( JSON.stringify({
-			result:"success",
+			result:"error",
 			message: console.log(JSON.stringify(e.json, null, 2))
 		}))
+	  
 	}
 })();
 
